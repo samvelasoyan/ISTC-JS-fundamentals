@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <input type="number" placeholder="Celcius" id="1"
+  oninput="cToF(this.value)"><span></span> <br>
+
+  <input type="number" placeholder="Fahrenheith" id="2"> 
+  <button onclick="fToC(fahrenheith.value)">to C</button><span></span>
+
+    <script>;
+    var celcius;
+    var fahrenheith = document.getElementById("2");
+    var span = document.getElementsByTagName("span")
+    var cToF = function(celcius){
+      var f = celcius * (9/5) + 32;
+      return span[0].innerHTML = " " + Math.round(f) + "°F";
+      }
+    var fToC = function(fahrenheith){
+      var c = (5/9) * (fahrenheith-32);
+      return span[1].innerHTML = " " + Math.round(c) + "°C"
+    }
+    </script>
+</body>
+</html>
