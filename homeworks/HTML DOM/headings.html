@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body> <!--when clicking the button colors of the headings will change rondomly-->
+    <button onclick = changeColor()>change colors</button>
+    <div id = "1">    
+    </div>
+    <script>
+        var div = document.getElementById("1");
+        var headings = ["h1", "h2", "h3", "h4", "h5", "h6"];
+        var addH = function(item){
+            var h = document.createElement(item);
+            h.innerHTML = item
+            return div.appendChild(h)
+            };
+        
+        headings.map(addH);
+        
+        function color(item){
+            var x = document.getElementsByTagName(item);
+            x[0].style.color = `#${Math.round(Math.random()*1000000)}`
+            };
+        
+        function changeColor(){headings.map(color)}
+
+    </script>
+</body>
+</html>
