@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <button onmouseover="changeFont()" onclick="none()">CHANGE FONT</button>
+    <div id = "div">
+    </div>
+    <script>
+    var div = document.getElementById("div");
+    var paragraphs = ["first", "second", "third", "fourth"];
+    function append(item){
+        var p = document.createElement("p");
+        p.innerHTML = item + " paragraph";
+        return div.appendChild(p)
+    }
+
+    paragraphs.map(append)
+
+    function font(){
+        return div.style.fontFamily = "arial"
+    }
+
+    function family(){
+        return div.style.fontFamily = "Times New Roman"
+    }
+
+    function changeFont(){paragraphs.forEach(font)}
+    function none(){paragraphs.map(family)}
+    </script>
+</body>
+</html>
