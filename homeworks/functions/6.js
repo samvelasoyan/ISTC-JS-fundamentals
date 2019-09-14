@@ -1,6 +1,3 @@
-<html>
-<body>
-<script>
 
 function hakarak(tiv){
     x = tiv.toString().split("");
@@ -10,7 +7,3 @@ function hakarak(tiv){
 }
 
 hakarak(34225)
-
-</script>
-</body>
-</html>

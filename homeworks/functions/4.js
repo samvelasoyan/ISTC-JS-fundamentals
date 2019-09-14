@@ -1,6 +1,3 @@
-<html>
-<body>
-<script>
 
 var x = ["a", "b", "c", "d", "e", "f"];
 var y = x.indexOf("a");
@@ -10,7 +7,3 @@ do{
   console.log(y)
 }
 while(y <= x.indexOf("f"))
-
-</script>
-</body>
-</html>

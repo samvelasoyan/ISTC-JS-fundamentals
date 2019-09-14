@@ -1,0 +1,7 @@
+
+function diff(firstDate, secondDate){
+    var oneDay = 24*60*60*1000     //24 jam 60 rope 60 varkyan 1000 milivarkyan 
+    var difference = Math.round((firstDate.valueOf() - secondDate.valueOf())/oneDay)
+    return difference 
+}
+console.log("mnac " + diff(new Date(2019,08,01),new Date()) + " or")

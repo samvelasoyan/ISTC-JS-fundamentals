@@ -1,6 +1,4 @@
-<html>
-<body>        
-<script>
+
 // calculate sum within the interval
 
 function gumar(a, b, c, d){
@@ -18,6 +16,3 @@ for (i = b; i >= a; i--) {
 }
 
 gumar(0, 50, 10, 20)
-</script>
-</body>
-</html>

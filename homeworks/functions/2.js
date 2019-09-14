@@ -1,6 +1,3 @@
-<html>
-<body>
-<script>
 
 function month(startDate, endDate, today){
 for (var i = startDate; i <= endDate; i.setDate(i.getDate() + 1)) {
@@ -15,7 +12,3 @@ for (var i = startDate; i <= endDate; i.setDate(i.getDate() + 1)) {
 }  
 
 month(new Date(2019, 06, 01), new Date(2019, 06, 31), new Date())
-
-</script>
-</body>
-</html>

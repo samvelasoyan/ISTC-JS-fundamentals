@@ -1,6 +1,3 @@
-<html>
-<body>
-<script>
 
 function max(tiv){
 var x = tiv.toString().split("")
@@ -10,6 +7,3 @@ return console.log(x[0])
 }
 
 max(1284)
-</script>
-</body>
-</html>
