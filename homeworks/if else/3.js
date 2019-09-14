@@ -1,6 +1,3 @@
-<html>
-<body>
-<script>
 
 var x = 13, 
     y = 7, 
@@ -15,6 +12,3 @@ else if(z < x && z < y){
   console.log(z)
 }
 //output kunenanq nvazaguyn arjeqov popoxakany
-</script>
-</body>
-</html>
