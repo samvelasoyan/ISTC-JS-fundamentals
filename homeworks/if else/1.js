@@ -1,6 +1,3 @@
-<html>
-<body>
-<script>
 
     var x = 10,
     y = 20,
@@ -12,6 +9,3 @@
         console.log("output2")
     }
     //output chenq unena qani vor erku paymann el false e
-</script>
-</body>
-</html>

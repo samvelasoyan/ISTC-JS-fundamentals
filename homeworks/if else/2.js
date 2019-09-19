@@ -1,6 +1,3 @@
-<html>
-<body>
-<script>
 
     var x = {},
     y = null,
@@ -15,6 +12,3 @@
     else if(typeof y === typeof z){
         console.log("output3")
     }
-</script>
-</body>
-</html>

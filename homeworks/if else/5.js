@@ -1,7 +1,4 @@
-<html>
-<body>
-<script>
-    
+
     var x = 1 + 100 * 5,
     y = (1 + 100)*5
 
@@ -11,6 +8,3 @@
     else if(x != y){
         console.log(x + " != " + y)
     }
-</script>
-</body>
-</html>

@@ -1,13 +1,14 @@
 
-function isPrime(p1, p2, p3, p4){
-    let arg = [...arguments];
-      for(let j = 0; j < arg.length; j++){
-      for(let i = 1; i < arg[j] + 1; i++){
+function isPrime(){
+  var arg = [...arguments]; 
+    for(var j = 0; j < arg.length; j++){
+      for(var i = 2; i < arg[j]; i++){
         if(Number.isInteger(arg[j]/i) === true){
-          console.log(i)
+          arg.splice(j, 1)
         }
       }
-     }
+    }
+console.log(arg)
 }
 
-isPrime(78, 4, 7, 8)
+isPrime(7, 8, 9, 11, 37, 78)

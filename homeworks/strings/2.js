@@ -1,6 +1,3 @@
-<html>
-<body>
-<script>
 
 var x = "datark string"
 
@@ -10,7 +7,3 @@ if(x === ""){
 else{
     console.log("voch datark che")
 }
-
-</script>
-</body>
-</html>

@@ -1,11 +1,4 @@
-<html>
-<body>
-<script>
-    
+ 
     var x = "Remove White Spaces"
 
     console.log(x.replace(/ /g,""))
-    
-</script>
-</body>
-</html>

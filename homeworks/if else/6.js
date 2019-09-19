@@ -1,7 +1,4 @@
-<html>
-<body>
-<script>
-  
+
   var student = {
       name : "Samvel",
       surname : "Asoyan",
@@ -13,6 +10,3 @@
   else if(student.age > 18){
       alert("Old enough")
   }
-</script>
-</body>
-</html>

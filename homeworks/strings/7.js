@@ -1,11 +1,4 @@
-<html>
-<body>
-<script>
-    
+ 
     var x = "indz petq e trogel"
 
     console.log(x.split(""))
-
-</script>
-</body>
-</html>

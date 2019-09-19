@@ -1,7 +1,4 @@
-<html>
-<body>
-<script>
-    
+
     var x = " "
 
     if(typeof x == "string")
@@ -10,6 +7,3 @@
         console.log("popoxakani arjeqy string che")
     }
     
-</script>
-</body>
-</html>
